@@ -13,7 +13,7 @@ $ npm install
 $ node app
 ```
 
-Verify the QRCode browser.
+Verify the QRCode browser with Google Authenticator App
 
 ```sh
 http://127.0.0.1:3000/
