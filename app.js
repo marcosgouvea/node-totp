@@ -4,7 +4,9 @@ const QRCode = require('qrcode');
 
 var app = express();
 
-var secret = speakeasy.generateSecret();
+var secret = speakeasy.generateSecret({
+  name: 'Example Node-TOTP'
+});
 
 app.get('/', (req, res) =>{
   QRCode.toDataURL(secret.otpauth_url, function(err, data_url) {
