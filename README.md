@@ -12,3 +12,9 @@ $ cd node-totp
 $ npm install 
 $ node app
 ```
+
+Verify the QRCode browser.
+
+```sh
+http://127.0.0.1:3000/
+```
